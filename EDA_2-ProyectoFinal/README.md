@@ -1,5 +1,8 @@
 Este repositorio esta destinado para el proyecto final de la materia de Estructura de Datos y Algoritmos 2.
-ACLARACIÓN: este proyecto se estaba trabajando en el repositorio de la materia como tal, sin embargo por unos problemas con los commits y las pull request, se decidió copiar todo lo trabajado y creale su propio repo.
+
+
+
+*ACLARACIÓN: ESTE PROYECTO SE ESTABA TRABAJANDO EN EL REPOSITORIO DE LA MATERIA COMO TAL, SIN EMBARGO POR UNOS PROBLEMAS CON LOS COMMITS Y LAS PULL REQUEST, SE DECIDIÓ COPIAR TODO LO TRABAJADO Y CREALE SU PROPIO REPO.*
 
 Titulo del proyecto: The Fan Choice
 
