@@ -4,17 +4,12 @@ import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyAOulY9NHur8zkeTqcZQy1a9RQPEM9ja1A",
-
-  authDomain: "cinema-uao.firebaseapp.com",
-
-  projectId: "cinema-uao",
-
-  storageBucket: "cinema-uao.appspot.com",
-
-  messagingSenderId: "538678509836",
-
-  appId: "1:538678509836:web:a495151cedd607be658929"
+    apiKey: "AIzaSyA4aDmLiSgNlj8WQXhyryE-k_qX56i08wc",
+    authDomain: "thefanchoice.firebaseapp.com",
+    projectId: "thefanchoice",
+    storageBucket: "thefanchoice.firebasestorage.app",
+    messagingSenderId: "514235624404",
+    appId: "1:514235624404:web:715e65f091f7d0529f8441"
 
 
 };
@@ -26,4 +21,3 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
 export {app, auth}
-

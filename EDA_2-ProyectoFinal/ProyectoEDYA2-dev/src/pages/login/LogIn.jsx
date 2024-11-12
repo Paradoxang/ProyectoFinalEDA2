@@ -36,8 +36,9 @@ const LogIn = ({ closeModal }) => {
 
   return (
     <form className='flex justify-center p-8'>
-      <div className="max-w-md w-full  ">
+      <div className="max-w-md w-full">
         <label htmlFor="inicio_sesion" className="block mb-4 text-4xl font-titleMono font-extrabold text-gray-900 text-center dark:text-white">Iniciar Sesión</label>
+
         <label className='block mb-4 text-center text-red-900 dark:text-white'>{error}</label>
         {!email ? (
           <>
@@ -52,8 +53,8 @@ const LogIn = ({ closeModal }) => {
             <button type="submit" onClick={onClickLogin} className="text-white bg-navColor hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium font-titleMono rounded-lg text-sm px-4 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800 w-full">Ingresar</button>
             <br />
             <br />
-            <button type="button" onClick={onClickRegister} className="text-white bg-navColor hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium font-titleMono rounded-lg text-sm px-4 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800 w-full">Registrate</button>
-            {/*<Link to="/home/signup" onClick={(event) => onClickRegister(event)}  style={{ margin: "40px", display: "block", textAlign: "center", textDecoration: "none", color: "#000" }}>¿No tienes cuenta? Regístrate</Link>*/}
+            <button type="button" onClick={onGoogleSignIn} className="text-white bg-navColor hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium font-titleMono rounded-lg text-sm px-4 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800 w-full">Ingresar con Google</button>
+            <Link to="/home/signup" onClick={(event) => onClickRegister(event)} className='font-medium font-titleMono' style={{ margin: "40px", display: "block", textAlign: "center", textDecoration: "none", color: "#000" }}>¿No tienes cuenta? Regístrate</Link>
           </>
         ) : (
           <Alert color="success" onDismiss={closeModal}>
