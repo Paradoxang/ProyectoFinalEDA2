@@ -54,7 +54,7 @@ const LogIn = ({ closeModal }) => {
             <br />
             <br />
             <button type="button" onClick={onGoogleSignIn} className="text-white bg-navColor hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium font-titleMono rounded-lg text-sm px-4 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800 w-full">Ingresar con Google</button>
-            <Link to="/home/signup" onClick={(event) => onClickRegister(event)} className='font-medium font-titleMono' style={{ margin: "40px", display: "block", textAlign: "center", textDecoration: "none", color: "#000" }}>¿No tienes cuenta? Regístrate</Link>
+            <Link to="/home/signup" onClick={(event) => onClickRegister(event)} className='font-medium font-titleMono' style={{ margin: "40px", display: "block", textAlign: "center", textDecoration: "none", color: "#000" }}>¿No tienes cuenta? Regístrate Aquí</Link>
           </>
         ) : (
           <Alert color="success" onDismiss={closeModal}>
