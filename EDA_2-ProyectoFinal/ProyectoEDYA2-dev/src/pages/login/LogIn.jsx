@@ -58,7 +58,7 @@ const LogIn = ({ closeModal }) => {
           </>
         ) : (
           <Alert color="success" onDismiss={closeModal}>
-            <span className="font-medium">¡Has iniciado sesión correctamente!</span>
+            <span className="font-medium font-titleMono">¡Has iniciado sesión correctamente!</span>
           </Alert>
         )}
       </div>
